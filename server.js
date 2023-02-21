@@ -95,7 +95,7 @@ app.get('/products/:cat', (req, res) => {
     } else {
         req.log.error('database not available');
         res.status(500).send('database not avaiable');
-    }
+     }
 });
 
 // all categories
